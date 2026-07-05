@@ -76,12 +76,17 @@ The solution consists of four main components:
 * Ansible Automation
 * Linux Administration
 * Infrastructure as Code (IaC)
+* Git & GitHub
+* Network automation
+* CI/CD concepts
+
+
 
 ---
 
 ## Repository Status
 
-🚧 This repository is currently being enhanced. Source code, architecture diagrams, screenshots, and sample configurations will be added in future updates.
+🚧 This repository documents my diploma project and will continue to be updated with additional documentation, architecture diagrams, screenshots, and implementation details.
 
 ---
 
