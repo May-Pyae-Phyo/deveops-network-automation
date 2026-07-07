@@ -66,6 +66,72 @@ The solution consists of four main components:
 
 ---
 
+## Project Demonstration
+
+The following screenshots demonstrate the implementation and successful execution of the DevOps Network Automation solution.
+
+---
+
+### 1. Solution Architecture
+
+The overall architecture of the solution illustrates how the REST API, Python automation, Docker, and Ansible work together to automate Cisco configuration backups.
+
+<p align="center">
+  <img src="images/Architecture%20Diagram.png" width="900">
+</p>
+
+---
+
+### 2. REST API
+
+The Flask REST API successfully exposes network device information in JSON format.
+
+<p align="center">
+  <img src="images/RESTAPI.png" width="900">
+</p>
+
+---
+
+### 3. API Testing with Postman
+
+The REST API endpoint is validated using Postman before executing the automation workflow.
+
+<p align="center">
+  <img src="images/Postman.png" width="900">
+</p>
+
+---
+
+### 4. Python Automation
+
+Python retrieves device information from the REST API, extracts device IP addresses, and dynamically updates the Ansible inventory.
+
+<p align="center">
+  <img src="images/PythonScript.png" width="900">
+</p>
+
+---
+
+### 5. Ansible Configuration Backup
+
+The Ansible playbook connects to Cisco routers and automatically backs up the running configuration.
+
+<p align="center">
+  <img src="images/AnsiblePlaybookExecution.png" width="900">
+</p>
+
+---
+
+### 6. Docker Deployment
+
+The complete automation workflow is packaged and executed inside a Docker container for consistent deployment.
+
+<p align="center">
+  <img src="images/DockerDeployment.png" width="900">
+</p>
+
+---
+
 ## Skills Demonstrated
 
 * Network Automation
@@ -86,7 +152,7 @@ The solution consists of four main components:
 
 ## Repository Status
 
-🚧 This repository documents my diploma project and will continue to be updated with additional documentation, architecture diagrams, screenshots, and implementation details.
+This repository documents my diploma project completed at Singapore Polytechnic. It includes project documentation, architecture diagrams, implementation screenshots, and demonstrates the complete DevOps network automation workflow. Additional enhancements and documentation may be added over time.
 
 ---
 
