@@ -1,8 +1,29 @@
-# deveops-network-automation
-Developed a DevOps automation workflow for Cisco configuration backup using Python, REST APIs, Ansible and Docker.
 # DevOps Network Automation
 
+Developed a DevOps automation workflow for Cisco configuration backup using Python, REST APIs, Ansible, and Docker.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
+![Ansible](https://img.shields.io/badge/Ansible-Automation-red?logo=ansible)
+![REST API](https://img.shields.io/badge/REST-API-green)
+![Cisco](https://img.shields.io/badge/Cisco-Networking-blue)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange?logo=ubuntu)
+
 > Automated Cisco network configuration backup using **Python, REST APIs, Ansible, and Docker**.
+
+## Table of Contents
+
+- Project Overview
+- Key Features
+- Problem Statement
+- Solution Architecture
+- Technologies Used
+- Workflow
+- Project Demonstration
+- Skills Demonstrated
+- Future Improvements
+- Repository Status
+- Disclaimer
 
 ## Project Overview
 
@@ -12,7 +33,7 @@ The solution dynamically retrieves network device information from a RESTful API
 
 ---
 
-## Project Highlights
+## Key Features
 
 * 🔹 Automated Cisco router configuration backups
 * 🔹 Dynamic device inventory generation using REST APIs
@@ -45,13 +66,15 @@ The solution consists of four main components:
 
 ## Technologies Used
 
-* Python
-* Flask REST API
-* Docker
-* Ansible
-* Cisco CSR1000v
-* Postman
-* Ubuntu Linux
+| Technology | Purpose |
+|------------|---------|
+| Python | Automation scripting |
+| Flask REST API | Device information service |
+| Docker | Containerized deployment |
+| Ansible | Configuration backup automation |
+| Cisco CSR1000v | Network devices |
+| Postman | REST API testing |
+| Ubuntu Linux | Development environment |
 
 ---
 
@@ -147,6 +170,17 @@ The complete automation workflow is packaged and executed inside a Docker contai
 * CI/CD concepts
 
 
+
+---
+
+## Future Improvements
+
+- Support multiple Cisco devices
+- Integrate with GitHub Actions for CI/CD
+- Deploy REST API to the cloud
+- Implement secure credential management using environment variables or a secrets manager
+- Add automated logging and monitoring
+- Expand support for additional network vendors
 
 ---
 
