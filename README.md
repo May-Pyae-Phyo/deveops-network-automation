@@ -60,8 +60,6 @@ The solution consists of four main components:
 3. Ansible playbook for configuration backup
 4. Docker container for deployment
 
-> **Architecture diagram will be added in a future update.**
-
 ---
 
 ## Technologies Used
